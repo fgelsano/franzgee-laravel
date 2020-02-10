@@ -23,9 +23,11 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/custom/admin') }}/sb-admin-2.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.2/css/dropify.min.css">
 
     <script src="https://kit.fontawesome.com/0371f381a6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    {{-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"> --}}
 </head>
 
 <body>
@@ -42,6 +44,10 @@
     <script src="{{ asset('js/custom/admin') }}/sb-admin-2.min.js"></script>
     <script src="{{ asset('js/custom/admin/jquery-easing') }}/jquery.easing.min.js"></script>
     <script src="{{ asset('js/custom/admin/chart.js') }}/chart.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Dropify/0.2.2/js/dropify.min.js">
+    </script>
+    <script src="//cdn.ckeditor.com/4.13.1/standard/ckeditor.js"></script>
+
 </body>
 
 </html>
